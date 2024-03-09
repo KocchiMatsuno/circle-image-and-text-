@@ -1,0 +1,26 @@
+.container {
+    display: flex; 
+    flex-direction: row; 
+	background-color: blue;
+}
+
+.container img { 
+    margin-right: 10px; 
+}
+
+.circle {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+    text-align: center; 
+    margin: 30px;   
+}
+
+.circle img {
+    width: 200px;       
+    height: auto;     
+    display: block;    
+    margin: 0 auto 5px auto;
+    border-radius: 50%; 
+    overflow: hidden;  
+}
